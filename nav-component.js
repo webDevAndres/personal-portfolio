@@ -12,6 +12,7 @@ class NavComponent extends HTMLElement{
     
     connectedCallback() {
         this.innerHTML = `<nav>
+        <a href="/">Andres Macias</a>
         <a href="/">Home</a>
         <a href="./about.html">About</a>
         <a href="./resume.html">Resume</a>
