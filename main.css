@@ -20,6 +20,10 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#callToAction h1 {
     text-align: left;
 }
 
