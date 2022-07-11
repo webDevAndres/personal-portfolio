@@ -13,12 +13,12 @@ class NavComponent extends HTMLElement{
     connectedCallback() {
         this.innerHTML = `<nav>
         <a href="/">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/resume.html">Resume</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/projects.html">Database Diagrams</a>
-        <a href="/projects.html">Api Unit Tests</a>
-        <a href="/projects.html">Bucket List</a>
+        <a href="./about.html">About</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./databases.html">Database Diagrams</a>
+        <a href="./api-unit-tests.html">Api Unit Tests</a>
+        <a href="./bucket-list.html">Bucket List</a>
     </nav>`;
     }
 }
