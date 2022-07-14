@@ -1,0 +1,89 @@
+@import url(/styles/index.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: bold;
+}
+#container {
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  position: relative;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr repeat(7, fit-content(136px));
+  justify-content: end;
+  justify-items: center;
+  gap: 24px;
+  background-color: #7b58db;
+  padding: 24px;
+}
+
+nav a, footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.full-width {
+  grid-column: 1/2;
+  justify-self: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 62px;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.page-icons {
+    position:absolute;
+    bottom: 32px;
+    right: 72px;
+    transform: translate(-72px, 0);
+}
+
+.btn {
+  background-color: #7B58DB;
+  color: #ffff;
+  padding: 14px 40px;
+  border-radius: 5px;
+  border-style: none;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #8560ec;
+  box-shadow: 3px 4px 10px -4px rgb(0, 0, 0);
+}
+
+.btn:active {
+  box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+}
+
+footer {
+  background-color: #7b58db;
+  display: grid;
+  grid-template-columns: repeat(4, fit-content(250px));
+  justify-content: center;
+  justify-items: baseline;
+  gap: 24px;
+  padding-top: 143px;
+  padding-bottom: 39px;
+}
