@@ -9,13 +9,22 @@
 #intro {
     width: 100%;
     min-height: 90vh;
-    background-image: url("/images/intro-image-left.svg");
-    background-repeat: no-repeat;
-    background-position: left bottom;
     background-color: #F2FAFD;
   }
 
-  #introDesign {
+  #introDesignLeft {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    bottom: 64px;
+    left: 0;
+    background-image: url("/images/intro-image-left.svg");
+    background-repeat: no-repeat;
+    background-position: left 32px;
+    background-size: contain;
+  }
+
+  #introDesignRight {
     width: 100%;
     min-height: 90vh;
     background-image: url("/images/intro-image-right.svg");
