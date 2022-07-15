@@ -1,6 +1,6 @@
-@import url(/styles/index.css);
-@import url(/styles/resume.css);
-@import url(/styles/projects.css);
+@import url(./styles/index.css);
+@import url(./styles/resume.css);
+@import url(./styles/projects.css);
 * {
   margin: 0;
   padding: 0;
