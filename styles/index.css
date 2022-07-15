@@ -11,7 +11,7 @@
     height: 50%;
     width: 45%;
     bottom: 32px;
-    background-image: url("/images/intro-image-left.svg");
+    background-image: url("../images/intro-image-left.svg");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -19,7 +19,7 @@
   #introDesignRight {
     width: 100%;
     min-height: 90vh;
-    background-image: url("/images/intro-image-right.svg");
+    background-image: url("../images/intro-image-right.svg");
     background-repeat: no-repeat;
     background-position: 104px 64px;
   }
