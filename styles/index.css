@@ -6,21 +6,13 @@
 
 }
 
-#intro {
-    width: 100%;
-    min-height: 90vh;
-    background-color: #F2FAFD;
-  }
-
   #introDesignLeft {
     position: absolute;
     height: 50%;
-    width: 50%;
-    bottom: 64px;
-    left: 0;
+    width: 45%;
+    bottom: 32px;
     background-image: url("/images/intro-image-left.svg");
     background-repeat: no-repeat;
-    background-position: left 32px;
     background-size: contain;
   }
 
