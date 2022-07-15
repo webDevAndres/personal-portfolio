@@ -91,6 +91,7 @@ h1 {
 .btn:hover {
   background-color: #8560ec;
   box-shadow: 3px 4px 10px -4px rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 .btn:active {
