@@ -127,6 +127,15 @@ h1 {
   object-position: center;
 }
 
+.card-title {
+  padding-top: 8px;
+}
+.card-content {
+  text-align: justify;
+  padding: 16px;
+  font-weight: normal;
+}
+
 footer {
   background-color: #7b58db;
   display: grid;
