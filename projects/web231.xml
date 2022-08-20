@@ -2,16 +2,19 @@
     <card>
         <image>"https://picsum.photos/200/300"</image>
         <title>Web 231 Landing Page</title>
-        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <content>Website that showcases the projects for Enterprise JavaScript 1.</content>
+        <visit>https://webdevandres.github.io/web-231/</visit>
     </card>
     <card>
         <image>"https://picsum.photos/200/300"</image>
         <title>Card Game</title>
-        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <content>Final for Enterprise JavaScript 1. This is a card game that generates random cards.</content>
+        <visit>https://webdevandres.github.io/web-231/week-9/macias-card-game.html</visit>
     </card>
     <card>
         <image>"https://picsum.photos/200/300"</image>
         <title>Alphabet Game</title>
-        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <content>This app returns the letter of the alphabet in a given position.</content>
+        <visit>https://webdevandres.github.io/web-231/week-8/macias-alphabet-game.html</visit>
     </card>
 </cards>

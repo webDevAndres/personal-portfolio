@@ -2,16 +2,19 @@
     <card>
         <image>"https://picsum.photos/200/300"</image>
         <title>Web 330 Landing Page</title>
-        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <content>This website showcases the projects for Enterprise JavaScript 2.</content>
+        <visit>https://webdevandres.github.io/web-330/</visit>
     </card>
     <card>
         <image>"https://picsum.photos/200/300"</image>
         <title>WhatABook, Part 2 App</title>
         <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <visit>https://webdevandres.github.io/web-330/week-8/macias-whatabook2.html</visit>
     </card>
     <card>
         <image>"https://picsum.photos/200/300"</image>
         <title>Bob's Automotive Repair Shop</title>
-        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <content>This app allows the user to choose a product and add it to a cart.</content>
+        <visit>https://webdevandres.github.io/web-330/week-5/macias-bobs-auto-repair.html</visit>
     </card>
 </cards>
