@@ -1,0 +1,17 @@
+<cards>
+    <card>
+        <image>"https://picsum.photos/200/300"</image>
+        <title>Web 231 Landing Page</title>
+        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+    </card>
+    <card>
+        <image>"https://picsum.photos/200/300"</image>
+        <title>Card Game</title>
+        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+    </card>
+    <card>
+        <image>"https://picsum.photos/200/300"</image>
+        <title>Alphabet Game</title>
+        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+    </card>
+</cards>
