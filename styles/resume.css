@@ -29,14 +29,15 @@
 }
 
 .resume-header {
-    margin-bottom: 92px;
+    margin-bottom: 32px;
 }
 
 #resumeProjects, #resumeEducation, #resumeExperience {
     padding-top: 36px;
+    padding-bottom: 36px;
     padding-left: 68px;
     padding-right: 40px;
-    height: 734px;
+    min-height: 734px;
     box-shadow: 0 0 8px #000;
     margin-bottom: 105px;
 }
