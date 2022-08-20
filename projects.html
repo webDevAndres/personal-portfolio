@@ -19,19 +19,23 @@
     <div id="container">
         <section class="text-center" id="projects">
             <h1 class="section-header">Projects</h1>
+            <div id="demo"></div>
             <div class="card-buttons">
-                <button class="btn">Web 231</button>
-                <button class="btn">Web 330</button>
-                <button class="btn"> Web 420</button>
-                <button class="btn"> Web 425</button>
-                <button class="btn">Web 450</button>
+                <button class="btn project-button" id="web231">Web 231</button>
+                <button class="btn project-button" id="web330">Web 330</button>
+                <button class="btn project-button" id="web340">Web 340</button>
+                <button class="btn  project-button inactive"> Web 420</button>
+                <button class="btn  project-button inactive"> Web 425</button>
+                <button class="btn  project-button inactive">Web 450</button>
             </div>
-            <div class="card-container">
+            <div class="card-container" id="project-cards">
                 <div class="card">
                     <div class="card-image-container">
                         <img class="card-image" src="https://picsum.photos/200/300" alt="placeholder">
                     </div>
-                    <div class="card-title"><h2>Dolore magna aliqua</h2></div>
+                    <div class="card-title">
+                        <h2>Web 231 Landing Page</h2>
+                    </div>
                     <div class="card-content">
                         <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
                     </div>
@@ -40,7 +44,9 @@
                     <div class="card-image-container">
                         <img class="card-image" src="https://picsum.photos/200/300" alt="placeholder">
                     </div>
-                    <div class="card-title"><h2>Dolore magna aliqua</h2></div>
+                    <div class="card-title">
+                        <h2>Card Game</h2>
+                    </div>
                     <div class="card-content">
                         <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
                     </div>
@@ -49,7 +55,9 @@
                     <div class="card-image-container">
                         <img class="card-image" src="https://picsum.photos/200/300" alt="placeholder">
                     </div>
-                    <div class="card-title"><h2>Dolore magna aliqua</h2></div>
+                    <div class="card-title">
+                        <h2>Alphabet Game</h2>
+                    </div>
                     <div class="card-content">
                         <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
                     </div>
@@ -61,6 +69,76 @@
         </div>
     </div>
     <footer-component></footer-component>
+
+    <script>
+        function getCardInfo() {
+            let thisButton = this;
+            let course = thisButton.innerHTML.toLowerCase();
+            course = course.replace(/\s/g, "");
+
+            let projectsFile = `projects/${course}.xml`;
+            let file = projectsFile;
+            fetch(file)
+                .then(res => res.text())
+                .then(data => {
+                    let domParser = new DOMParser();
+                    let xmlCards = domParser.parseFromString(data, 'text/xml');
+                    loadCardInfo(xmlCards);
+                });
+            thisButton.classList.add('active-project');
+            thisButton.classList.remove('active-project');
+
+            activeButton(thisButton);
+        };
+
+        function activeButton(button) {
+            let activeButton = button.innerHTML;
+            let buttons = document.getElementsByClassName('project-button');
+
+            if (activeButton === 'Web 231') {
+                button.classList.add('active-project');
+                document.getElementById('web330').classList.remove('active-project');
+                document.getElementById('web340').classList.remove('active-project');
+            } else if (activeButton === 'Web 330') {
+                button.classList.add('active-project');
+                document.getElementById('web231').classList.remove('active-project');
+                document.getElementById('web340').classList.remove('active-project');
+            }
+            else if (activeButton === 'Web 340') {
+                button.classList.add('active-project');
+                document.getElementById('web231').classList.remove('active-project');
+                document.getElementById('web330').classList.remove('active-project');
+            }
+        }
+
+
+        function loadCardInfo(xml) {
+            let updatedCards = xml.getElementsByTagName('card');
+            let newCard = '';
+            for (const card of updatedCards) {
+                let image = card.getElementsByTagName('image')[0].childNodes[0].nodeValue;
+                let title = card.getElementsByTagName('title')[0].childNodes[0].nodeValue;
+                let content = card.getElementsByTagName('content')[0].childNodes[0].nodeValue;
+                newCard += `<div class="card">`;
+                newCard += `<div class="card-image-container">
+                            <img class="card-image" src=${image} alt="placeholder">
+                            </div>
+                        <div class="card-title">
+                            <h2>${title}</h2>
+                            </div>
+                        <div class="card-content">
+                        <p>${content}</p>
+                        </div>`;
+                newCard += `</div>`;
+            }
+            document.getElementById("project-cards").innerHTML = newCard;
+        };
+
+        let buttons = document.getElementsByClassName('project-button');
+        for (let index = 0; index < buttons.length; index++) {
+            buttons[index].addEventListener('click', getCardInfo);
+        }
+    </script>
 </body>
 
 </html>
