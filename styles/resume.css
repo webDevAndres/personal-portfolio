@@ -10,12 +10,20 @@
 .resume-contact {
     margin-bottom: 125px;
 }
+.contact-info img, .project-icon {
+    position: relative;
+    top: 8px;
+    padding-right: 8px;
+}
+.contact-info p, .resume-header {
+    display: inline-block;
+}
 
 .resume-skills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
     margin-top: 40px;
+    font-weight: normal;
 }
 
 .resume-skill {
