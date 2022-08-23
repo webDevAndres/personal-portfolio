@@ -15,6 +15,21 @@
     top: 8px;
     padding-right: 8px;
 }
+
+.project-title {
+    margin-bottom: 8px;
+}
+
+.project-content {
+    margin-top: 8px;
+}
+
+.project-icon img {
+    position: relative;
+    min-height: 45px;
+    top: 8px;
+    margin-right: 24px;
+}
 .contact-info p, .resume-header {
     display: inline-block;
 }
