@@ -2,7 +2,7 @@
     <card>
         <image>"https://picsum.photos/200/300"</image>
         <title>Pets-R-Us</title>
-        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <content>Local pet store concept that offers 3 main services. The website must allow users to schedule appointments for these services, create an account, login, and logout. Additionally, each user has a profile page that contains a history of appointments.</content>
         <visit>https://macias-web-340.herokuapp.com/</visit>
     </card>
 </cards>

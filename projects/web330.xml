@@ -8,7 +8,7 @@
     <card>
         <image>"./images/projects/web330-whatABook-part2.png"</image>
         <title>WhatABook, Part 2 App</title>
-        <content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</content>
+        <content>Ths application uses the openlibrary api to pull a list of books and their information using the fetch api. The list of books is displayed in a table and the user can select a record by the isbn to display it individually.</content>
         <visit>https://webdevandres.github.io/web-330/week-8/macias-whatabook2.html</visit>
     </card>
     <card>
