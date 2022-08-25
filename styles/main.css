@@ -64,6 +64,9 @@ footer a {
   margin-top: 62px;
 }
 
+.link-margin-top {
+  margin-top: 8px;
+}
 
 .margin-top-large {
   margin-top: 124px;
@@ -137,7 +140,7 @@ h1 {
   padding-top: 8px;
 }
 .card-content {
-  text-align: justify;
+  text-align: left;
   padding: 16px;
   font-weight: normal;
 }
