@@ -37,7 +37,8 @@
                         <h2>Web 231 Landing Page</h2>
                     </div>
                     <div class="card-content">
-                        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                        <p>Website that showcases the projects for Enterprise JavaScript 1.</p>
+                        <p class="link-margin-top"><a href="https://webdevandres.github.io/web-231/" target="_blank">Visit</a></p>
                     </div>
                 </div>
                 <div class="card">
@@ -48,7 +49,8 @@
                         <h2>Card Game</h2>
                     </div>
                     <div class="card-content">
-                        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                        <p>Final for Enterprise JavaScript 1. This is a card game that generates random cards.</p>
+                        <p class="link-margin-top"><a href="https://webdevandres.github.io/web-231/" target="_blank">Visit</a></p>
                     </div>
                 </div>
                 <div class="card">
@@ -59,7 +61,8 @@
                         <h2>Alphabet Game</h2>
                     </div>
                     <div class="card-content">
-                        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                        <p>This app returns the letter of the alphabet in a given position.</p>
+                        <p class="link-margin-top"><a href="https://webdevandres.github.io/web-231/" target="_blank">Visit</a></p>
                     </div>
                 </div>
             </div>
@@ -119,6 +122,7 @@
                 let image = card.getElementsByTagName('image')[0].childNodes[0].nodeValue;
                 let title = card.getElementsByTagName('title')[0].childNodes[0].nodeValue;
                 let content = card.getElementsByTagName('content')[0].childNodes[0].nodeValue;
+                let link = card.getElementsByTagName('visit')[0].childNodes[0].nodeValue;
                 newCard += `<div class="card">`;
                 newCard += `<div class="card-image-container">
                             <img class="card-image" src=${image} alt="placeholder">
@@ -128,6 +132,7 @@
                             </div>
                         <div class="card-content">
                         <p>${content}</p>
+                        <p class="link-margin-top"><a href=${link} target="_blank">Visit</a></p>
                         </div>`;
                 newCard += `</div>`;
             }
