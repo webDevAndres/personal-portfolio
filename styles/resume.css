@@ -89,6 +89,7 @@
   right: 72px;
   transform: translate(0, 0);
 }
+
 @media screen and (max-width: 768px) {
   #resumeContainer {
     grid-template-columns: 100%;
@@ -96,9 +97,5 @@
     padding-right: 24px;
   }
 
-  #resumeContainer .page-icons {
-    right: 25%;
-    left: 0;
-    transform: translate(25%, 0);
-  }
+
 }
