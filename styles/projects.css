@@ -1,35 +1,37 @@
-
 #projects {
-    margin-top: 124px;
-    margin-bottom: 56px;
+  margin-top: 124px;
+  margin-bottom: 56px;
 }
 
 .project-button {
-    margin: 8px;
+  margin: 8px;
 }
 
 .project-card-container {
-        display: flex;
-        margin-top: 56px;
-        flex-wrap: wrap;
-        gap: 24px;
-        justify-content: center;
+  display: flex;
+  margin-top: 56px;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 156px;
 }
 
-.project-content, .resume-content, .job-content {
-    font-weight: normal;
+.project-content,
+.resume-content,
+.job-content {
+  font-weight: normal;
 }
 
 .btn.active-project {
-    background-color: #8560ec;
-    box-shadow: 3px 4px 10px -4px rgb(0, 0, 0);
+  background-color: #8560ec;
+  box-shadow: 3px 4px 10px -4px rgb(0, 0, 0);
 }
 
 .inactive {
-    opacity: .5;
-    pointer-events: none;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 #projectCards .card {
-    width: 360px;
+  width: 360px;
 }
