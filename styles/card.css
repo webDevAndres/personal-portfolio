@@ -1,12 +1,13 @@
 .card-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,fit-content(360px));
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
     justify-items: center;
     justify-content: center;
     gap: 24px;
     margin-top: 56px;
     margin-bottom: 105px;
+    padding: 24px;
   }
   
   .card {

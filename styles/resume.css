@@ -1,6 +1,6 @@
-#resume-container {
+#resumeContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(20%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   position: relative;
   padding-right: 48px;
   padding-left: 48px;
@@ -84,10 +84,21 @@
   margin-top: 32px;
 }
 
+#resumeContainer .page-icons {
+  bottom: 8px;
+  right: 72px;
+  transform: translate(0, 0);
+}
 @media screen and (max-width: 768px) {
-    #resume-container {
-        grid-template-columns: 100%;
-        padding-left: 24px;
-        padding-right: 24px;
-    }
+  #resumeContainer {
+    grid-template-columns: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  #resumeContainer .page-icons {
+    right: 25%;
+    left: 0;
+    transform: translate(25%, 0);
+  }
 }

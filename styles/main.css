@@ -21,7 +21,7 @@ p {
   width: 100%;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   position: relative;
   margin-bottom: 48px;
 }
@@ -87,4 +87,5 @@ h1 {
   .page-icons img {
     width: 90%;
   }
+
 }
