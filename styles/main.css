@@ -19,10 +19,11 @@ p {
 
 #container {
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   position: relative;
+  margin-bottom: 48px;
 }
 
 .text-center {
@@ -52,9 +53,9 @@ h1 {
 
 .page-icons {
   position: absolute;
-  bottom: 32px;
+  bottom: 8px;
   right: 72px;
-  transform: translate(-72px, 0);
+  transform: translate(-72px, 48px);
 }
 
 .btn {
