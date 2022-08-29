@@ -1,59 +1,28 @@
 @import url(index.css);
+@import url(about.css);
+@import url(nav.css);
 @import url(resume.css);
 @import url(projects.css);
+@import url(footer.css);
+@import url(card.css);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-weight: bold;
-}
 p {
   font-size: 18px;
   line-height: 24px;
 }
 
 #container {
+  width: 100%;
   min-height: 90vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   position: relative;
-}
-
-nav {
-  display: grid;
-  grid-template-columns: 1fr repeat(7, fit-content(136px));
-  justify-content: end;
-  justify-items: center;
-  gap: 24px;
-  background-color: #7b58db;
-  padding: 24px;
-}
-
-nav a,
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-.full-width {
-  grid-column: 1/2;
-  justify-self: start;
-}
-
-.section-text {
-  width: 80%;
-  text-align: left;
-  margin: auto;
-  font-weight: normal;
-}
-
-#intro {
-  width: 100%;
-  min-height: 90vh;
-  background-color: #f2fafd;
 }
 
 .text-center {
@@ -108,50 +77,13 @@ h1 {
   box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
 }
 
-.card-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3,fit-content(360px));
-  justify-items: center;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 56px;
-  margin-bottom: 105px;
-}
-.card {
-  width: 100%;
-  height: 500px;
-  box-shadow: 3px 4px 10px -4px rgb(0, 0, 0);
-}
-
-.card-image-container {
-  width: 100%;
-  height: 50%;
-}
-
-.card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.card-title {
-  padding-top: 8px;
-}
-.card-content {
-  text-align: left;
-  padding: 16px;
-  font-weight: normal;
-}
-
-footer {
-  background-color: #7b58db;
-  display: grid;
-  grid-template-columns: repeat(4, fit-content(250px));
-  justify-content: center;
-  justify-items: baseline;
-  gap: 24px;
-  padding-top: 143px;
-  padding-bottom: 39px;
+@media screen and (max-width: 767px) {
+  .page-icons {
+    right: 25%;
+    left: 0;
+    transform: translate(25%, 0);
+  }
+  .page-icons img {
+    width: 90%;
+  }
 }
