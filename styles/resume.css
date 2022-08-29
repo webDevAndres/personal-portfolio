@@ -1,71 +1,93 @@
+#resume-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20%, 1fr));
+  position: relative;
+  padding-right: 48px;
+  padding-left: 48px;
+  grid-gap: 100px;
+}
+
 #resumeSkills {
-    width: 519px;
-    height: 734px;
-    box-shadow: 0 0 8px #000;
-    padding-left: 48px;
-    padding-top: 32px;
-    margin-left: 40px;
+  height: 734px;
+  box-shadow: 0 0 8px #000;
+  padding-left: 48px;
+  padding-top: 32px;
 }
 
 .resume-contact {
-    margin-bottom: 125px;
+  margin-bottom: 125px;
 }
-.contact-info img, .project-icon {
-    position: relative;
-    top: 8px;
-    padding-right: 8px;
+
+.contact-info img,
+.project-icon {
+  position: relative;
+  top: 8px;
+  padding-right: 8px;
 }
 
 .project-title {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .project-content {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 .project-icon img {
-    position: relative;
-    min-height: 45px;
-    top: 8px;
-    margin-right: 24px;
+  position: relative;
+  min-height: 45px;
+  top: 8px;
+  margin-right: 24px;
 }
-.contact-info p, .resume-header {
-    display: inline-block;
+
+.contact-info p,
+.resume-header {
+  display: inline-block;
 }
 
 .resume-skills {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 40px;
-    font-weight: normal;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  font-weight: normal;
 }
 
 .resume-skill {
-    padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 #resume {
-    width: 90%;
-    margin-right: 140px;
-    margin-bottom: 105px;
+  width: 100%;
+  margin-bottom: 105px;
 }
 
 .resume-header {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
-#resumeProjects, #resumeEducation, #resumeExperience {
-    padding-top: 36px;
-    padding-bottom: 36px;
-    padding-left: 68px;
-    padding-right: 40px;
-    min-height: 734px;
-    box-shadow: 0 0 8px #000;
-    margin-bottom: 105px;
+#resumeProjects,
+#resumeEducation,
+#resumeExperience {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 68px;
+  padding-right: 40px;
+  min-height: 734px;
+  box-shadow: 0 0 8px #000;
+  margin-bottom: 105px;
 }
 
-.project, .resume-education, .resume-work-experience {
-    margin-bottom: 40px;
-    margin-top: 32px;
+.project,
+.resume-education,
+.resume-work-experience {
+  margin-bottom: 40px;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    #resume-container {
+        grid-template-columns: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 }
