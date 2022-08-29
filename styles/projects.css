@@ -1,6 +1,19 @@
 
 #projects {
     margin-top: 124px;
+    margin-bottom: 56px;
+}
+
+.project-button {
+    margin: 8px;
+}
+
+.project-card-container {
+        display: flex;
+        margin-top: 56px;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
 }
 
 .project-content, .resume-content, .job-content {
@@ -15,4 +28,8 @@
 .inactive {
     opacity: .5;
     pointer-events: none;
+}
+
+#projectCards .card {
+    width: 360px;
 }
