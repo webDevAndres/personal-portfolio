@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    background-color: #7b58db;
+    padding-top: 135px;
+    padding-bottom: 39px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer a {
+    margin: 16px;
+  }
+  
