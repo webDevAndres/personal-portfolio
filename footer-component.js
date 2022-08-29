@@ -11,7 +11,8 @@ class FooterComponent extends HTMLElement {
     }
 
     connectedCallback() {  
-        this.innerHTML = `<footer>
+        this.innerHTML = `
+        <footer>
         <a href="https://github.com/webDevAndres?tab=repositories" target="_blank">My GitHub Repo</a>
         <a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue Web Development Degree</a>
         <a href="https://www.youtube.com/user/bellevueuniversity" target="_blank">Bellevue University Youtube</a>
