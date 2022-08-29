@@ -1,0 +1,20 @@
+.about-card-container {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 56px;
+  }
+
+  #intro {
+    min-height: 100vh;
+    background-color: #f2fafd;
+  }
+
+  .section-text {
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    font-weight: normal;
+  }
+  
