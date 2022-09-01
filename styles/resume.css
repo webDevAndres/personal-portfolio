@@ -5,6 +5,7 @@
   padding-right: 48px;
   padding-left: 48px;
   grid-gap: 100px;
+  margin-bottom: 48px;
 }
 
 #resumeSkills {
@@ -84,17 +85,18 @@
   margin-top: 32px;
 }
 
-#resumeContainer .page-icons {
+/* #resumeContainer .page-icons {
   bottom: 8px;
   right: 72px;
   transform: translate(0, 0);
-}
+} */
 
 @media screen and (max-width: 768px) {
   #resumeContainer {
     grid-template-columns: 100%;
     padding-left: 24px;
     padding-right: 24px;
+    
   }
 
 
