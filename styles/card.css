@@ -1,5 +1,6 @@
 .card-container {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
     justify-items: center;
@@ -12,13 +13,13 @@
   
   .card {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     box-shadow: 3px 4px 10px -4px rgb(0, 0, 0);
   }
   
   .card-image-container {
     width: 100%;
-    height: 50%;
+    height: 250px;
   }
   
   .card-image {
@@ -35,4 +36,5 @@
     text-align: left;
     padding: 16px;
     font-weight: normal;
+    min-height: 250px;
   }
