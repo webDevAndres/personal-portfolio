@@ -1,17 +1,8 @@
 <cards>
     <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>Web 330 Landing Page</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
-    </card>
-    <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>WhatABook, Part 2 App</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
-    </card>
-    <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>Bob's Automotive Repair Shop</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
+        <image>"./images/projects/web420-capstone.png"</image>
+        <title>Teams Capstone</title>
+        <content>Capstone project for web 420 that showcases an api</content>
+        <visit>https://web-420-api-capstone.herokuapp.com/api-docs/</visit>
     </card>
 </cards>
