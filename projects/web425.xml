@@ -1,17 +1,8 @@
 <cards>
     <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>Web 330 Landing Page</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
-    </card>
-    <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>WhatABook, Part 2 App</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
-    </card>
-    <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>Bob's Automotive Repair Shop</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
+        <card-image>"./images/projects/loan-app.png"</card-image>
+        <card-title>Capstone: Loan App</card-title>
+        <card-content>This is an angular application that calculates monthly payment and interest</card-content>
+        <visit>https://webdevandres.github.io/loan-app/"</visit>
     </card>
 </cards>
