@@ -1,8 +1,8 @@
 <cards>
     <card>
-        <card-image>"./images/projects/loan-app.png"</card-image>
-        <card-title>Capstone: Loan App</card-title>
-        <card-content>This is an angular application that calculates monthly payment and interest</card-content>
+        <image>"./images/projects/loan-app.png"</image>
+        <title>Capstone: Loan App</title>
+        <content>This is an angular application that calculates monthly payment and interest</content>
         <visit>https://webdevandres.github.io/loan-app/"</visit>
     </card>
 </cards>
