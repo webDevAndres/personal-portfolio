@@ -25,7 +25,7 @@
                 <button class="btn project-button" id="web340">Web 340</button>
                 <button class="btn project-button" id="web420">Web 420</button>
                 <button class="btn project-button" id="web425">Web 425</button>
-                <button class="btn  project-button inactive">Web 450</button>
+                <button class="btn project-button" id="web450">Web 450</button>
             </div>
             <div class="project-card-container" id="projectCards">
                 <div class="card">
@@ -106,6 +106,7 @@
                 document.getElementById('web340').classList.remove('active-project');
                 document.getElementById('web420').classList.remove('active-project');
                 document.getElementById('web425').classList.remove('active-project');
+                document.getElementById('web450').classList.remove('active-project');
 
             } else if (activeButton === 'Web 330') {
                 button.classList.add('active-project');
@@ -113,6 +114,7 @@
                 document.getElementById('web340').classList.remove('active-project');
                 document.getElementById('web420').classList.remove('active-project');
                 document.getElementById('web425').classList.remove('active-project');
+                document.getElementById('web450').classList.remove('active-project');
             }
             else if (activeButton === 'Web 425') {
                 button.classList.add('active-project');
@@ -120,6 +122,7 @@
                 document.getElementById('web340').classList.remove('active-project');
                 document.getElementById('web330').classList.remove('active-project');
                 document.getElementById('web420').classList.remove('active-project');
+                document.getElementById('web450').classList.remove('active-project');
             }
             else if (activeButton === 'Web 420') {
                 button.classList.add('active-project');
@@ -127,8 +130,17 @@
                 document.getElementById('web425').classList.remove('active-project');
                 document.getElementById('web330').classList.remove('active-project');
                 document.getElementById('web340').classList.remove('active-project');
+                document.getElementById('web450').classList.remove('active-project');
             }
             else if (activeButton === 'Web 340') {
+                button.classList.add('active-project');
+                document.getElementById('web231').classList.remove('active-project');
+                document.getElementById('web425').classList.remove('active-project');
+                document.getElementById('web330').classList.remove('active-project');
+                document.getElementById('web420').classList.remove('active-project');
+                document.getElementById('web450').classList.remove('active-project');
+            }
+            else if (activeButton === 'Web 450') {
                 button.classList.add('active-project');
                 document.getElementById('web231').classList.remove('active-project');
                 document.getElementById('web425').classList.remove('active-project');

@@ -1,17 +1,14 @@
 <cards>
     <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>Web 330 Landing Page</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
+        <image>"https://picsum.photos/200/300"</image>
+        <title>Nodebucket</title>
+        <content>Tasklist with drag and drop</content>
+         <visit>TBD - Heroku unavailable</visit>
     </card>
     <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>WhatABook, Part 2 App</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
-    </card>
-    <card>
-        <card-image>"https://picsum.photos/200/300"</card-image>
-        <card-title>Bob's Automotive Repair Shop</card-title>
-        <card-content>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</card-content>
+        <image>"./images/projects/bcrs.png"</image>
+        <title>Bobs Computer Repair Shop</title>
+        <content>MEAN stack project with shopping cart, login, logout.</content>
+        <visit>https://bcrs-h9au.onrender.com/#/</visit>
     </card>
 </cards>
